@@ -1,0 +1,129 @@
+html{
+    box-sizing: border-box;
+    font-family: helvetica, sans-serif;
+    font-size: 16px;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    background-color: #fff;
+    color: #000;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+*, *::after, *::before{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+*[disabled]{
+    background-color: #ddd;
+    color:  #999;
+    cursor: default;
+}
+
+a{
+    color: #ff5700;
+}
+
+a:hover{
+    color: #fff;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.75rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+h4{
+    font-size: 1.25rem;
+}
+
+h5, a, dfn, b, abbr, p, li, i, strong, code, em, pre{
+    font-size: 1rem;
+}
+
+h6, small{
+    font-size: .75rem;
+}
+
+li{
+    padding: 1rem;
+    list-style-position: outside;
+    list-style-type: inherit;
+}
+
+a{
+    color: #ff5700;
+}
+
+abbr, i, dfn, em{
+    font-style: italic;
+}
+
+b, strong{
+    font-weight: bold;
+}
+
+code, pre{
+    font-family: monospace;
+}
+
+mark{
+    background-color: yellow;
+}
+
+hr{
+    margin: 1rem auto;
+    width: 100%;
+    border: thin solid #000;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+textarea{
+    resize: none;
+}
+
+::selection{
+    background-color: #ccc;
+    color: #fff;
+
+}
+
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary{
+    display: block;
+}
+
+audio, canvas, img, iframe, picture, progress, svg, video{
+    display: inline-block;
+    vertical-align: baseline;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+button, input, optgroup, option, select, textarea{
+    padding: .25rem;
+    font-family: inherit;
+    font-size: 1rem;
+    border: thin solid #000;
+}
+
+button, input[type="button"], input[type="submit"], input[type="reset"], input[type= "checkbox"], input[type="radio"], label, select{
+    cursor: pointer;
+}
+
